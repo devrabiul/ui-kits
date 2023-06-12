@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <!--====== Title ======-->
+    <title>eCommerce HTML | Filter</title>
+
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/png" />
+
+    <!--====== Tiny Slider CSS ======-->
+    <link rel="stylesheet" href="../assets/css/tiny-slider.css" />
+
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="../assets/css/LineIcons.css" />
+
+    <!--====== Material Design Icons CSS ======-->
+    <link rel="stylesheet" href="../assets/css/materialdesignicons.min.css" />
+
+    <!--====== Jquery Ui CSS ======-->
+    <link rel="stylesheet" href="../assets/css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="../assets/css/nouislider.min.css" />
+
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+
+    <!--====== gLightBox CSS ======-->
+    <link rel="stylesheet" href="../assets/css/glightbox.min.css" />
+
+    <!--====== nouiSlider CSS ======-->
+    <link rel="stylesheet" href="../assets/css/nouislider.min.css" />
+
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="../assets/css/default.css" />
+
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+
+<body>
+    <!--====== Page Banner Part Start ======-->
+
+    <section class="page-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-banner-content text-center">
+                        <h1 class="sub-title">eCommerce HTML</h1>
+                        <h3 class="page-title">Filter</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== Page Banner Part Ends ======-->
+
+    <!--====== Filter Part Start ======-->
+
+    <section class="filter-wrapper pt-85">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="filter-style-1">
+                        <div class="filter-title">
+                            <h4 class="title">Filter</h4>
+                        </div>
+                        <div class="filter-btn">
+                            <a class="main-btn primary-btn" href="#">Reset</a>
+                        </div>
+                    </div>
+
+                    <div class="filter-style-2">
+                        <div class="filter-title">
+                            <a class="title" data-bs-toggle="collapse" href="#pricingOne" role="button"
+                                aria-expanded="false">Pricing Range</a>
+                        </div>
+                        <div class="collapse show" id="pricingOne">
+                            <div class="price-range">
+                                <div class="price-amount">
+                                    <div class="amount-input">
+                                        <label>Minimum Price</label>
+                                        <input type="text" id="minAmount" />
+                                    </div>
+                                    <div class="amount-input">
+                                        <label>Maximum Price</label>
+                                        <input type="text" id="maxAmount" />
+                                    </div>
+                                </div>
+                                <div id="slider-range" class="slider-range"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-style-3">
+                        <div class="filter-title">
+                            <a class="title" data-bs-toggle="collapse" href="#type" role="button"
+                                aria-expanded="false">Type</a>
+                        </div>
+                        <div class="collapse show" id="type">
+                            <div class="filter-type">
+                                <ul>
+                                    <li>
+                                        <div class="type-check">
+                                            <input type="checkbox" id="type-1" />
+                                            <label for="type-1"><span></span> Standalone</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="type-check">
+                                            <input type="checkbox" id="type-2" />
+                                            <label for="type-2"><span></span> Mobile</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="type-check">
+                                            <input type="checkbox" id="type-3" />
+                                            <label for="type-3"><span></span> Tethered</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-style-4">
+                        <div class="filter-title">
+                            <a class="title" data-bs-toggle="collapse" href="#size" role="button"
+                                aria-expanded="false">Select Size</a>
+                        </div>
+                        <div class="collapse show" id="size">
+                            <div class="filter-size" id="filter-size-1">
+                                <ul>
+                                    <li>XS</li>
+                                    <li>S</li>
+                                    <li class="active">M</li>
+                                    <li>LG</li>
+                                    <li>XL</li>
+                                    <li>XXL</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="filter-style-5">
+                        <div class="filter-title">
+                            <a class="title" data-bs-toggle="collapse" href="#pricingTwo" role="button"
+                                aria-expanded="false">Pricing Range</a>
+                        </div>
+                        <div class="collapse show" id="pricingTwo">
+                            <div class="price-range">
+                                <div class="price-amount">
+                                    <div class="amount-input">
+                                        <label>Minimum Price</label>
+                                        <input type="text" id="minAmount2" />
+                                    </div>
+                                    <div class="amount-input">
+                                        <label>Maximum Price</label>
+                                        <input type="text" id="maxAmount2" />
+                                    </div>
+                                </div>
+                                <div id="slider-range2" class="slider-range"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-style-6">
+                        <div class="filter-title">
+                            <a class="title" data-bs-toggle="collapse" href="#rating" role="button"
+                                aria-expanded="false">Select Size</a>
+                        </div>
+                        <div class="collapse show" id="rating">
+                            <div class="filter-rating">
+                                <ul>
+                                    <li>
+                                        <div class="rating-check">
+                                            <input type="checkbox" id="rating-5" />
+                                            <label for="rating-5"><span></span> </label>
+                                            <p>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="rating-check">
+                                            <input type="checkbox" id="rating-4" />
+                                            <label for="rating-4"><span></span></label>
+                                            <p>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="rating-check">
+                                            <input type="checkbox" id="rating-3" />
+                                            <label for="rating-3"><span></span></label>
+                                            <p>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="rating-check">
+                                            <input type="checkbox" id="rating-2" />
+                                            <label for="rating-2"><span></span></label>
+                                            <p>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="rating-check">
+                                            <input type="checkbox" id="rating-1" />
+                                            <label for="rating-1"><span></span></label>
+                                            <p>
+                                                <i class="mdi mdi-star"></i>
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-style-7">
+                        <div class="filter-title">
+                            <a class="title" data-bs-toggle="collapse" href="#color" role="button"
+                                aria-expanded="false">Select Size</a>
+                        </div>
+                        <div class="collapse show" id="color">
+                            <div class="filter-color">
+                                <ul>
+                                    <li>
+                                        <div class="color-check">
+                                            <p>
+                                                <span style="background-color: #00c2fe"></span>
+                                                <strong>Blue</strong>
+                                            </p>
+
+                                            <input type="checkbox" id="color-1" />
+                                            <label for="color-1"><span></span></label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="color-check">
+                                            <p>
+                                                <span style="background-color: #e14c7b"></span>
+                                                <strong>Red</strong>
+                                            </p>
+
+                                            <input type="checkbox" id="color-2" />
+                                            <label for="color-2"><span></span></label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="color-check">
+                                            <p>
+                                                <span style="background-color: #7cb637"></span>
+                                                <strong>Green</strong>
+                                            </p>
+
+                                            <input type="checkbox" id="color-3" />
+                                            <label for="color-3"><span></span></label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="color-check">
+                                            <p>
+                                                <span style="background-color: #161359"></span>
+                                                <strong>Dark</strong>
+                                            </p>
+
+                                            <input type="checkbox" id="color-4" />
+                                            <label for="color-4"><span></span></label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="filter-style-8">
+                        <div class="filter-title">
+                            <a class="title" data-bs-toggle="collapse" href="#category" role="button"
+                                aria-expanded="false">Categories</a>
+                        </div>
+                        <div class="collapse show" id="category">
+                            <div class="filter-search">
+                                <form action="#">
+                                    <input type="text" placeholder="Search" />
+                                    <button><i class="lni lni-search-alt"></i></button>
+                                </form>
+                            </div>
+                            <div class="filter-category">
+                                <ul class="category-list">
+                                    <li>
+                                        <a href="#" data-bs-toggle="collapse" data-bs-target="#collapseOne">Oculus</a>
+                                        <ul id="collapseOne" class="sub-category collapse show" data-parent="#category">
+                                            <li><a href="#">PlayStation 4</a></li>
+                                            <li><a href="#">SteamVR</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="collapsed" href="#" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo">PlayStation 4</a>
+                                        <ul id="collapseTwo" class="sub-category collapse" data-parent="#category">
+                                            <li><a href="#">PlayStation 4</a></li>
+                                            <li><a href="#">SteamVR</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="collapsed" href="#" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree">SteamVR</a>
+                                        <ul id="collapseThree" class="sub-category collapse" data-parent="#category">
+                                            <li><a href="#">PlayStation 4</a></li>
+                                            <li><a href="#">SteamVR</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="collapsed" href="#" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseFour">Google Daydream</a>
+                                        <ul id="collapseFour" class="sub-category collapse" data-parent="#category">
+                                            <li><a href="#">PlayStation 4</a></li>
+                                            <li><a href="#">SteamVR</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="collapsed" href="#" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseFive">Nintendo Labo</a>
+                                        <ul id="collapseFive" class="sub-category collapse" data-parent="#category">
+                                            <li><a href="#">PlayStation 4</a></li>
+                                            <li><a href="#">SteamVR</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-style-9">
+                        <div class="filter-title">
+                            <a class="title" data-bs-toggle="collapse" href="#platform" role="button"
+                                aria-expanded="false">Software Platform</a>
+                        </div>
+                        <div class="collapse show" id="platform">
+                            <div class="filter-platform">
+                                <ul>
+                                    <li>
+                                        <div class="platform-check">
+                                            <input type="checkbox" id="platform-1" />
+                                            <label for="platform-1"><span></span>Oculus</label>
+                                            <span class="count">88</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="platform-check">
+                                            <input type="checkbox" id="platform-2" />
+                                            <label for="platform-2"><span></span>PlayStation 4</label>
+                                            <span class="count">88</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="platform-check">
+                                            <input type="checkbox" id="platform-3" />
+                                            <label for="platform-3"><span></span>SteamVR</label>
+                                            <span class="count">88</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="platform-check">
+                                            <input type="checkbox" id="platform-4" />
+                                            <label for="platform-4"><span></span>Google Daydream</label>
+                                            <span class="count">88</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="platform-check">
+                                            <input type="checkbox" id="platform-5" />
+                                            <label for="platform-5"><span></span>Nintendo Labo</label>
+                                            <span class="count">88</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== Filter Part Ends ======-->
+
+    <!--====== Filter Part Start ======-->
+
+    <section class="filter-wrapper pt-85 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="filter-style-1 filter-dark">
+                        <div class="filter-title">
+                            <h4 class="title">Filter</h4>
+                        </div>
+                        <div class="filter-btn">
+                            <a class="main-btn secondary-1-btn" href="#">Reset</a>
+                        </div>
+                    </div>
+
+                    <div class="filter-style-2 filter-dark">
+                        <div class="filter-title">
+                            <a class="title" data-bs-toggle="collapse" href="#pricingOneDark" role="button"
+                                aria-expanded="false">Pricing Range</a>
+                        </div>
+                        <div class="collapse show" id="pricingOneDark">
+                            <div class="price-range">
+                                <div class="price-amount">
+                                    <div class="amount-input">
+                                        <label>Minimum Price</label>
+                                        <input type="text" id="minAmountDark" />
+                                    </div>
+                                    <div class="amount-input">
+                                        <label>Maximum Price</label>
+                                        <input type="text" id="maxAmountDark" />
+                                    </div>
+                                </div>
+                                <div id="slider-range-dark" class="slider-range"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-style-3 filter-dark">
+                        <div class="filter-title">
+                            <a class="title" data-bs-toggle="collapse" href="#typeDark" role="button"
+                                aria-expanded="false">Type</a>
+                        </div>
+                        <div class="collapse show" id="typeDark">
+                            <div class="filter-type">
+                                <ul>
+                                    <li>
+                                        <div class="type-check">
+                                            <input type="checkbox" id="typedark-1" />
+                                            <label for="typedark-1"><span></span> Standalone</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="type-check">
+                                            <input type="checkbox" id="typedark-2" />
+                                            <label for="typedark-2"><span></span> Mobile</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="type-check">
+                                            <input type="checkbox" id="typedark-3" />
+                                            <label for="typedark-3"><span></span> Tethered</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-style-4 filter-dark">
+                        <div class="filter-title">
+                            <a class="title" data-bs-toggle="collapse" href="#sizeDark" role="button"
+                                aria-expanded="false">Select Size</a>
+                        </div>
+                        <div class="collapse show" id="sizeDark">
+                            <div class="filter-size" id="filter-size-1-dark">
+                                <ul>
+                                    <li>XS</li>
+                                    <li>S</li>
+                                    <li class="active">M</li>
+                                    <li>LG</li>
+                                    <li>XL</li>
+                                    <li>XXL</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="filter-style-5 filter-dark">
+                        <div class="filter-title">
+                            <a class="title" data-bs-toggle="collapse" href="#pricingTwoDark" role="button"
+                                aria-expanded="false">Pricing Range</a>
+                        </div>
+                        <div class="collapse show" id="pricingTwoDark">
+                            <div class="price-range">
+                                <div class="price-amount">
+                                    <div class="amount-input">
+                                        <label>Minimum Price</label>
+                                        <input type="text" id="minAmountDark2" />
+                                    </div>
+                                    <div class="amount-input">
+                                        <label>Maximum Price</label>
+                                        <input type="text" id="maxAmountDark2" />
+                                    </div>
+                                </div>
+                                <div id="slider-range-dark2" class="slider-range"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-style-6 filter-dark">
+                        <div class="filter-title">
+                            <a class="title" data-bs-toggle="collapse" href="#ratingDark" role="button"
+                                aria-expanded="false">Select Size</a>
+                        </div>
+                        <div class="collapse show" id="ratingDark">
+                            <div class="filter-rating">
+                                <ul>
+                                    <li>
+                                        <div class="rating-check">
+                                            <input type="checkbox" id="ratingDark-5" />
+                                            <label for="ratingDark-5"><span></span> </label>
+                                            <p>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="rating-check">
+                                            <input type="checkbox" id="ratingDark-4" />
+                                            <label for="ratingDark-4"><span></span></label>
+                                            <p>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="rating-check">
+                                            <input type="checkbox" id="ratingDark-3" />
+                                            <label for="ratingDark-3"><span></span></label>
+                                            <p>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="rating-check">
+                                            <input type="checkbox" id="ratingDark-2" />
+                                            <label for="ratingDark-2"><span></span></label>
+                                            <p>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="rating-check">
+                                            <input type="checkbox" id="ratingDark-1" />
+                                            <label for="ratingDark-1"><span></span></label>
+                                            <p>
+                                                <i class="mdi mdi-star"></i>
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-style-7 filter-dark">
+                        <div class="filter-title">
+                            <a class="title" data-bs-toggle="collapse" href="#colorDark" role="button"
+                                aria-expanded="false">Select Size</a>
+                        </div>
+                        <div class="collapse show" id="colorDark">
+                            <div class="filter-color">
+                                <ul>
+                                    <li>
+                                        <div class="color-check">
+                                            <p>
+                                                <span style="background-color: #00c2fe"></span>
+                                                <strong>Blue</strong>
+                                            </p>
+
+                                            <input type="checkbox" id="colorDark-1" />
+                                            <label for="colorDark-1"><span></span></label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="color-check">
+                                            <p>
+                                                <span style="background-color: #e14c7b"></span>
+                                                <strong>Red</strong>
+                                            </p>
+
+                                            <input type="checkbox" id="colorDark-2" />
+                                            <label for="colorDark-2"><span></span></label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="color-check">
+                                            <p>
+                                                <span style="background-color: #7cb637"></span>
+                                                <strong>Green</strong>
+                                            </p>
+
+                                            <input type="checkbox" id="colorDark-3" />
+                                            <label for="colorDark-3"><span></span></label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="color-check">
+                                            <p>
+                                                <span style="background-color: #161359"></span>
+                                                <strong>Dark</strong>
+                                            </p>
+
+                                            <input type="checkbox" id="colorDark-4" />
+                                            <label for="colorDark-4"><span></span></label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="filter-style-8 filter-dark">
+                        <div class="filter-title">
+                            <a class="title" data-bs-toggle="collapse" href="#categoryDark" role="button"
+                                aria-expanded="false">Categories</a>
+                        </div>
+                        <div class="collapse show" id="categoryDark">
+                            <div class="filter-search">
+                                <form action="#">
+                                    <input type="text" placeholder="Search" />
+                                    <button><i class="lni lni-search-alt"></i></button>
+                                </form>
+                            </div>
+                            <div class="filter-category">
+                                <ul class="category-list">
+                                    <li>
+                                        <a href="#" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOneDark">Oculus</a>
+                                        <ul id="collapseOneDark" class="sub-category collapse show"
+                                            data-parent="#categoryDark">
+                                            <li><a href="#">PlayStation 4</a></li>
+                                            <li><a href="#">SteamVR</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="collapsed" href="#" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwoDark">PlayStation 4</a>
+                                        <ul id="collapseTwoDark" class="sub-category collapse"
+                                            data-parent="#categoryDark">
+                                            <li><a href="#">PlayStation 4</a></li>
+                                            <li><a href="#">SteamVR</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="collapsed" href="#" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThreeDark">SteamVR</a>
+                                        <ul id="collapseThreeDark" class="sub-category collapse"
+                                            data-parent="#categoryDark">
+                                            <li><a href="#">PlayStation 4</a></li>
+                                            <li><a href="#">SteamVR</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="collapsed" href="#" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseFourDark">Google Daydream</a>
+                                        <ul id="collapseFourDark" class="sub-category collapse"
+                                            data-parent="#categoryDark">
+                                            <li><a href="#">PlayStation 4</a></li>
+                                            <li><a href="#">SteamVR</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="collapsed" href="#" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseFiveDark">Nintendo Labo</a>
+                                        <ul id="collapseFiveDark" class="sub-category collapse"
+                                            data-parent="#categoryDark">
+                                            <li><a href="#">PlayStation 4</a></li>
+                                            <li><a href="#">SteamVR</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-style-9 filter-dark">
+                        <div class="filter-title">
+                            <a class="title" data-bs-toggle="collapse" href="#platformDark" role="button"
+                                aria-expanded="false">Software Platform</a>
+                        </div>
+                        <div class="collapse show" id="platformDark">
+                            <div class="filter-platform">
+                                <ul>
+                                    <li>
+                                        <div class="platform-check">
+                                            <input type="checkbox" id="platformDark-1" />
+                                            <label for="platformDark-1"><span></span>Oculus</label>
+                                            <span class="count">88</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="platform-check">
+                                            <input type="checkbox" id="platformDark-2" />
+                                            <label for="platformDark-2"><span></span>PlayStation 4</label>
+                                            <span class="count">88</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="platform-check">
+                                            <input type="checkbox" id="platformDark-3" />
+                                            <label for="platformDark-3"><span></span>SteamVR</label>
+                                            <span class="count">88</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="platform-check">
+                                            <input type="checkbox" id="platformDark-4" />
+                                            <label for="platformDark-4"><span></span>Google Daydream</label>
+                                            <span class="count">88</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="platform-check">
+                                            <input type="checkbox" id="platformDark-5" />
+                                            <label for="platformDark-5"><span></span>Nintendo Labo</label>
+                                            <span class="count">88</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== Filter Part Ends ======-->
+
+    <!--====== Bootstrap js ======-->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+    <!--====== Tiny Slider js ======-->
+    <script src="../assets/js/tiny-slider.js"></script>
+
+    <!--====== nouiSlider js ======-->
+    <script src="../assets/js/nouislider.min.js"></script>
+
+    <!--====== count up js ======-->
+    <script src="../assets/js/count-up.min.js"></script>
+
+    <!--====== gLightBox js ======-->
+    <script src="../assets/js/glightbox.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="../assets/js/main.js"></script>
+
+    <script>
+        // ========= Pricing range slider one
+        var stepsSlider = document.getElementById("slider-range");
+        var input0 = document.getElementById("minAmount");
+        var input1 = document.getElementById("maxAmount");
+        var inputs = [input0, input1];
+        noUiSlider.create(stepsSlider, {
+            start: [200, 1200],
+            connect: true,
+            step: 1,
+            range: {
+                min: [0],
+                max: 2000,
+            },
+        });
+
+        stepsSlider.noUiSlider.on("update", function (values, handle) {
+            inputs[handle].value = values[handle];
+        });
+
+        // ========= Pricing range slider two
+        var stepsSlider2 = document.getElementById("slider-range2");
+        var input3 = document.getElementById("minAmount2");
+        var input4 = document.getElementById("maxAmount2");
+        var inputs2 = [input3, input4];
+        noUiSlider.create(stepsSlider2, {
+            start: [200, 1200],
+            connect: true,
+            step: 1,
+            range: {
+                min: [0],
+                max: 2000,
+            },
+        });
+
+        stepsSlider2.noUiSlider.on("update", function (values, handle) {
+            inputs2[handle].value = values[handle];
+        });
+
+        // ========= Pricing range slider one dark
+        var stepsSliderDark = document.getElementById("slider-range-dark");
+        var input0Dark = document.getElementById("minAmountDark");
+        var input1Dark = document.getElementById("maxAmountDark");
+        var inputsDark = [input0Dark, input1Dark];
+        noUiSlider.create(stepsSliderDark, {
+            start: [200, 1200],
+            connect: true,
+            step: 1,
+            range: {
+                min: [0],
+                max: 2000,
+            },
+        });
+
+        stepsSliderDark.noUiSlider.on("update", function (values, handle) {
+            inputsDark[handle].value = values[handle];
+        });
+
+        // ========= Pricing range slider two dark
+        var stepsSliderDark2 = document.getElementById("slider-range-dark2");
+        var inputDark3 = document.getElementById("minAmountDark2");
+        var inputDark4 = document.getElementById("maxAmountDark2");
+        var inputsDark2 = [inputDark3, inputDark4];
+        noUiSlider.create(stepsSliderDark2, {
+            start: [200, 1200],
+            connect: true,
+            step: 1,
+            range: {
+                min: [0],
+                max: 2000,
+            },
+        });
+
+        stepsSliderDark2.noUiSlider.on("update", function (values, handle) {
+            inputsDark2[handle].value = values[handle];
+        });
+
+        // =========== filter size active
+        elements = document.querySelectorAll("#filter-size-1 ul li");
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].onclick = function () {
+                var el = elements[0];
+                while (el) {
+                    if (el.tagName === "LI") {
+                        el.classList.remove("active");
+                    }
+                    el = el.nextSibling;
+                }
+                this.classList.add("active");
+            };
+        }
+
+        // =========== filter size dark active
+        elementsDark = document.querySelectorAll("#filter-size-1-dark ul li");
+        for (var i = 0; i < elementsDark.length; i++) {
+            elementsDark[i].onclick = function () {
+                var el = elementsDark[0];
+                while (el) {
+                    if (el.tagName === "LI") {
+                        el.classList.remove("active");
+                    }
+                    el = el.nextSibling;
+                }
+                this.classList.add("active");
+            };
+        }
+    </script>
+</body>
+
+</html>
