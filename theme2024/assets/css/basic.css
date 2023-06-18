@@ -1,0 +1,23 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+p{
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+/* Basic CSS - Start */
+.text-justify
+{
+    text-align: justify;
+}
+
+.focus-no-shadow:focus{
+    box-shadow: none;
+}
+/* Basic CSS - End */

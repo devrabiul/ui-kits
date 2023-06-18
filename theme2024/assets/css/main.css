@@ -1,0 +1,32 @@
+/*
+    ******** CSS INDEX ********
+    01. Base
+        1.1 Typography 
+        1.2 Spacing
+        1.3 Color
+    ********************/
+:root {
+    --theme-primary: #27496D;
+    --theme-secondary: #008891;
+    --theme-light: #1f6a75;
+    --theme-dark-light: #276e79;
+    --theme-text-light: #f3f3f3;
+}
+
+
+/* Colors - Start */
+.theme-primary{
+    background-color: var(--theme-primary);
+    color: var(--theme-text-light);
+}
+.theme-secondary{
+    background-color: var(--theme-secondary);
+}
+.theme-light{
+    background-color: var(--theme-light);
+}
+.theme-dark-light{
+    background-color: var(--theme-dark-light);
+    color: var(--theme-text-light);
+}
+/* Colors - End */
