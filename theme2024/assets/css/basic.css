@@ -1,23 +1,72 @@
-*{
+/* Width and height of the scrollbar track */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 100%;
+}
+
+/* Track background color */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+/* Handle (thumb) */
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+/* Go To Top Button - Start */
+#goToTopButton {
+    display: none;
+    /* Hide the button by default */
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+#goToTopButton:hover {
+    background-color: #555;
+}
+
+/* Go To Top Button - End */
+
+* {
     font-family: 'Open Sans', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
     color: unset;
 }
 
-p{
+p {
     font-size: 15px;
     letter-spacing: .5px;
 }
+
+.user-select-none{
+    user-select: none;
+}
 /* Basic CSS - Start */
-.text-justify
-{
+.text-justify {
     text-align: justify;
 }
 
-.focus-no-shadow:focus{
+.focus-no-shadow:focus {
     box-shadow: none;
 }
+
 /* Basic CSS - End */

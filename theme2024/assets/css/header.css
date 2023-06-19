@@ -1,0 +1,21 @@
+.section-title-area{
+    display: flex;
+    justify-content: center;
+}
+
+.section-title-area div{
+    text-align: center;
+    padding: 25px 0 10px 0;
+    position: relative;
+}
+
+.section-title-area div::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 3px;
+    background-color: var(--theme-primary);
+}
