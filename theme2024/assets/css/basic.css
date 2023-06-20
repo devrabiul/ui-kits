@@ -57,6 +57,9 @@ p {
     letter-spacing: .5px;
 }
 
+body{
+    background-color: var(--theme-body);
+}
 .user-select-none{
     user-select: none;
 }
