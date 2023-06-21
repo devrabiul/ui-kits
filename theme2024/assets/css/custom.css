@@ -1,0 +1,98 @@
+/* Styles for all devices */
+@media (min-width: 0px) and (max-width: 575.98px) {
+    /* Extra Small (xs) */
+
+    .banner-card {
+        overflow: hidden;
+        height: 400px;
+        padding: 0;
+    }
+
+    .banner-card-1 .welcome-title {
+        font-size: 16px;
+    }
+    .banner-card-1 .title{
+        font-size: 1.4rem;
+    }
+    .banner-card-1 .sub-title {
+        font-size: 12px;
+    }
+    .banner-card-1 .url-btn {
+        margin-top: 5px;
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* Small (sm) */
+    /* Example: Change layout */
+    .banner-card-1 .welcome-title {
+        font-size: 16px;
+    }
+    .banner-card-1 .title{
+        font-size: 1.4rem;
+    }
+    .banner-card-1 .sub-title {
+        font-size: 12px;
+    }
+    .banner-card-1 .url-btn {
+        margin-top: 5px;
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Medium (md) */
+
+    .banner-card-1 .welcome-title {
+        font-size: 16px;
+    }
+    .banner-card-1 .title{
+        font-size: 1.4rem;
+    }
+    .banner-card-1 .sub-title {
+        font-size: 12px;
+    }
+    .banner-card-1 .url-btn {
+        margin-top: 5px;
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Large (lg) */
+    .banner-card-1 .welcome-title {
+        font-size: 16px;
+    }
+    .banner-card-1 .title{
+        font-size: 1.4rem;
+    }
+    .banner-card-1 .sub-title {
+        font-size: 12px;
+    }
+    .banner-card-1 .url-btn {
+        margin-top: 5px;
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+
+
+
+
+}
+
+@media (min-width: 1200px) {
+    /* Extra Large (xl) */
+
+
+
+
+
+}

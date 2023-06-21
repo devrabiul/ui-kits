@@ -100,16 +100,18 @@
                 </div>
             </div>
 
-            <div class="main-nav">
+            <div class="main-nav d-none">
                 <div class="logo-area py-4">
-                    <img src="./assets/img/logo.png" alt="logo" class="img-fluid logo-footer"
+                    <img src="./assets/img/logo.png" alt="logo" class="img-fluid logo-footer d-none d-lg-block"
+                        onerror="this.src='./assets/img/placeholder/placeholder_4-1.png'">
+
+                    <img src="./assets/img/mobile-logo.png" alt="logo" class="img-fluid logo-footer"
                         onerror="this.src='./assets/img/placeholder/placeholder_4-1.png'">
                 </div>
                 <div class="search-category-area py-4">
                     <form action="" method="get">
                         <div class="">
-                            <select class="form-select custom-width"
-                                name="product_cat" id="categories">
+                            <select class="form-select custom-width" name="product_cat" id="categories">
                                 <option value="all" selected>All</option>
                                 <option value="apple">Apple</option>
                                 <option value="headphones">Headphones</option>
@@ -120,8 +122,8 @@
                             <span class="search-icon">
                                 <i class="ri-search-line"></i>
                             </span>
-                            <input type="search" class="form-control" name="s" 
-                            placeholder="Search your favorite product..." autocomplete="off">
+                            <input type="search" class="form-control" name="s"
+                                placeholder="Search your favorite product..." autocomplete="off">
                         </div>
                         <div class="input-search-button">
                             <button class="btn" type="submit">
@@ -133,7 +135,7 @@
                 <div class="user-action-area py-4">
                     <div class="d-flex align-items-center">
                         <div class="pe-3">
-                            <i class="ri-user-6-line large-icon"></i>                
+                            <i class="ri-user-6-line large-icon"></i>
                         </div>
                         <div class="title-area">
                             <span class="d-block">Sign In</span>
@@ -159,7 +161,7 @@
                                     <i class="ri-shopping-cart-line large-icon"></i>
                                     <span class="wishlist-count">3</span>
                                 </a>
-                            </div>                  
+                            </div>
                         </div>
                         <div class="title-area">
                             <span class="d-block">Total</span>
@@ -171,6 +173,66 @@
         </div>
     </header>
 
+    <section class="hero-area">
+        <div class="container">
+            <div class="row gap-4px flex-md-nowrap">
+                <div class="col-md-8 banner-card border-dark">
+                    <div class="banner-card-1 height-100"
+                        data-background_img="./assets/img/placeholder/placeholder_4-1.png">
+                        <div class="banner-card-textarea">
+                            <h6 class="welcome-title">
+                                Weekend Discount
+                            </h6>
+                            <h3 class="title">
+                                Enhance Your
+                            </h3>
+                            <h5 class="sub-title">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias velit cumque dolores
+                                dolor est voluptate magnam odit culpa maxime? Doloremque placeat incidunt adipisci
+                                temporibus dolor eum, quam cupiditate animi mollitia?
+                            </h5>
+                            <button class="url-btn">Visit Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row banner-card gap-4px">
+                        <div class="border-dark height-50 banner-card-1"
+                            data-background_img="./assets/img/banner/banner-1.jpg">
+                            <div class="banner-card-textarea">
+                                <h6 class="welcome-title">
+                                    Weekend Discount
+                                </h6>
+                                <h3 class="title">
+                                    Enhance Your
+                                </h3>
+                                <h5 class="sub-title">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias velit cumque.
+                                </h5>
+                                <button class="url-btn">Visit Now</button>
+                            </div>
+                        </div>
+                        <div class="border-dark height-50 banner-card-1"
+                            data-background_img="./assets/img/banner/banner-2.jpg">
+                            <div class="banner-card-textarea">
+                                <h6 class="welcome-title">
+                                    Weekend Discount
+                                </h6>
+                                <h3 class="title">
+                                    Enhance Your
+                                </h3>
+                                <h5 class="sub-title">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias velit cumque.
+                                </h5>
+                                <button class="url-btn">Visit Now</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Product Section - Start -->
     <section>
@@ -178,17 +240,17 @@
             <div class="section-title-area">
                 <div>
                     <h4 class="section-main-title">Recommended For You</h4>
-                <h6 class="section-main-subtitle">Find Your Products</h6>
+                    <h6 class="section-main-subtitle">Find Your Products</h6>
                 </div>
             </div>
         </div>
     </section>
 
-     <!-- Product Section - Start -->
-     <section>
+    <!-- Product Section - Start -->
+    <section>
         <div class="container">
-            <div class="row g-4 py-5">
-                <div class="col-md-3">
+            <div class="row g-2 g-md-4 py-5">
+                <div class="col-6 col-md-3">
                     <div class="product-single-card">
                         <div class="product-top-area">
                             <div class="product-discount">
@@ -198,11 +260,11 @@
                             <div class="product-img">
                                 <div class="first-view">
                                     <img src="./assets/img/placeholder/dummy2.png" alt="logo" class="img-fluid"
-                                    onerror="this.src='./assets/img/placeholder/placeholder.png'">
+                                        onerror="this.src='./assets/img/placeholder/placeholder.png'">
                                 </div>
                                 <div class="hover-view">
                                     <img src="./assets/img/placeholder/dummy.jpg" alt="logo" class="img-fluid"
-                                    onerror="this.src='./assets/img/placeholder/placeholder.png'">
+                                        onerror="this.src='./assets/img/placeholder/placeholder.png'">
                                 </div>
                             </div>
                             <div class="sideicons">
@@ -236,17 +298,17 @@
                             </div>
                             <div class="d-flex flex-wrap align-items-center py-2">
                                 <div class="old-price">
-                                        $50.45                                    
+                                    $50.45
                                 </div>
                                 <div class="new-price">
-                                        $35.053455555                  
+                                    $35.05
                                 </div>
 
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="product-single-card">
                         <div class="product-top-area">
                             <div class="product-discount">
@@ -256,11 +318,11 @@
                             <div class="product-img">
                                 <div class="first-view">
                                     <img src="./assets/img/placeholder/dummy3.png" alt="logo" class="img-fluid"
-                                    onerror="this.src='./assets/img/placeholder/placeholder.png'">
+                                        onerror="this.src='./assets/img/placeholder/placeholder.png'">
                                 </div>
                                 <div class="hover-view">
                                     <img src="./assets/img/placeholder/dummy.jpg" alt="logo" class="img-fluid"
-                                    onerror="this.src='./assets/img/placeholder/placeholder.png'">
+                                        onerror="this.src='./assets/img/placeholder/placeholder.png'">
                                 </div>
                             </div>
                             <div class="sideicons">
@@ -294,17 +356,17 @@
                             </div>
                             <div class="d-flex flex-wrap align-items-center py-2">
                                 <div class="old-price">
-                                        $50.45                                    
+                                    $50.45
                                 </div>
                                 <div class="new-price">
-                                        $35.053455555                  
+                                    $35.05
                                 </div>
 
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="product-single-card">
                         <div class="product-top-area">
                             <div class="product-discount">
@@ -314,11 +376,11 @@
                             <div class="product-img">
                                 <div class="first-view">
                                     <img src="./assets/img/placeholder/dummy4.png" alt="logo" class="img-fluid"
-                                    onerror="this.src='./assets/img/placeholder/placeholder.png'">
+                                        onerror="this.src='./assets/img/placeholder/placeholder.png'">
                                 </div>
                                 <div class="hover-view">
                                     <img src="./assets/img/placeholder/dummy.jpg" alt="logo" class="img-fluid"
-                                    onerror="this.src='./assets/img/placeholder/placeholder.png'">
+                                        onerror="this.src='./assets/img/placeholder/placeholder.png'">
                                 </div>
                             </div>
                             <div class="sideicons">
@@ -352,17 +414,17 @@
                             </div>
                             <div class="d-flex flex-wrap align-items-center py-2">
                                 <div class="old-price">
-                                        $50.45                                    
+                                    $50.45
                                 </div>
                                 <div class="new-price">
-                                        $35.053455555                  
+                                    $35.05
                                 </div>
 
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="product-single-card">
                         <div class="product-top-area">
                             <div class="product-discount">
@@ -372,11 +434,11 @@
                             <div class="product-img">
                                 <div class="first-view">
                                     <img src="./assets/img/placeholder/dummy5.png" alt="logo" class="img-fluid"
-                                    onerror="this.src='./assets/img/placeholder/placeholder.png'">
+                                        onerror="this.src='./assets/img/placeholder/placeholder.png'">
                                 </div>
                                 <div class="hover-view">
                                     <img src="./assets/img/placeholder/dummy.jpg" alt="logo" class="img-fluid"
-                                    onerror="this.src='./assets/img/placeholder/placeholder.png'">
+                                        onerror="this.src='./assets/img/placeholder/placeholder.png'">
                                 </div>
                             </div>
                             <div class="sideicons">
@@ -410,17 +472,17 @@
                             </div>
                             <div class="d-flex flex-wrap align-items-center py-2">
                                 <div class="old-price">
-                                        $50.45                                    
+                                    $50.45
                                 </div>
                                 <div class="new-price">
-                                        $35.053455555                  
+                                    $35.05
                                 </div>
 
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="product-single-card">
                         <div class="product-top-area">
                             <div class="product-discount">
@@ -430,11 +492,11 @@
                             <div class="product-img">
                                 <div class="first-view">
                                     <img src="./assets/img/placeholder/dummy6.png" alt="logo" class="img-fluid"
-                                    onerror="this.src='./assets/img/placeholder/placeholder.png'">
+                                        onerror="this.src='./assets/img/placeholder/placeholder.png'">
                                 </div>
                                 <div class="hover-view">
                                     <img src="./assets/img/placeholder/dummy.jpg" alt="logo" class="img-fluid"
-                                    onerror="this.src='./assets/img/placeholder/placeholder.png'">
+                                        onerror="this.src='./assets/img/placeholder/placeholder.png'">
                                 </div>
                             </div>
                             <div class="sideicons">
@@ -468,17 +530,17 @@
                             </div>
                             <div class="d-flex flex-wrap align-items-center py-2">
                                 <div class="old-price">
-                                        $50.45                                    
+                                    $50.45
                                 </div>
                                 <div class="new-price">
-                                        $35.053455555                  
+                                    $35.05
                                 </div>
 
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="product-single-card">
                         <div class="product-top-area">
                             <div class="product-discount">
@@ -488,11 +550,11 @@
                             <div class="product-img">
                                 <div class="first-view">
                                     <img src="./assets/img/placeholder/dummy7.png" alt="logo" class="img-fluid"
-                                    onerror="this.src='./assets/img/placeholder/placeholder.png'">
+                                        onerror="this.src='./assets/img/placeholder/placeholder.png'">
                                 </div>
                                 <div class="hover-view">
                                     <img src="./assets/img/placeholder/dummy.jpg" alt="logo" class="img-fluid"
-                                    onerror="this.src='./assets/img/placeholder/placeholder.png'">
+                                        onerror="this.src='./assets/img/placeholder/placeholder.png'">
                                 </div>
                             </div>
                             <div class="sideicons">
@@ -526,17 +588,17 @@
                             </div>
                             <div class="d-flex flex-wrap align-items-center py-2">
                                 <div class="old-price">
-                                        $50.45                                    
+                                    $50.45
                                 </div>
                                 <div class="new-price">
-                                        $35.053455555                  
+                                    $35.05
                                 </div>
 
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="product-single-card">
                         <div class="product-top-area">
                             <div class="product-discount">
@@ -546,11 +608,11 @@
                             <div class="product-img">
                                 <div class="first-view">
                                     <img src="./assets/img/placeholder/dummy8.png" alt="logo" class="img-fluid"
-                                    onerror="this.src='./assets/img/placeholder/placeholder.png'">
+                                        onerror="this.src='./assets/img/placeholder/placeholder.png'">
                                 </div>
                                 <div class="hover-view">
                                     <img src="./assets/img/placeholder/dummy.jpg" alt="logo" class="img-fluid"
-                                    onerror="this.src='./assets/img/placeholder/placeholder.png'">
+                                        onerror="this.src='./assets/img/placeholder/placeholder.png'">
                                 </div>
                             </div>
                             <div class="sideicons">
@@ -584,17 +646,17 @@
                             </div>
                             <div class="d-flex flex-wrap align-items-center py-2">
                                 <div class="old-price">
-                                        $50.45                                    
+                                    $50.45
                                 </div>
                                 <div class="new-price">
-                                        $35.053455555                  
+                                    $35.05
                                 </div>
 
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="product-single-card">
                         <div class="product-top-area">
                             <div class="product-discount">
@@ -604,11 +666,11 @@
                             <div class="product-img">
                                 <div class="first-view">
                                     <img src="./assets/img/placeholder/dummy9.png" alt="logo" class="img-fluid"
-                                    onerror="this.src='./assets/img/placeholder/placeholder.png'">
+                                        onerror="this.src='./assets/img/placeholder/placeholder.png'">
                                 </div>
                                 <div class="hover-view">
                                     <img src="./assets/img/placeholder/dummy.jpg" alt="logo" class="img-fluid"
-                                    onerror="this.src='./assets/img/placeholder/placeholder.png'">
+                                        onerror="this.src='./assets/img/placeholder/placeholder.png'">
                                 </div>
                             </div>
                             <div class="sideicons">
@@ -642,10 +704,10 @@
                             </div>
                             <div class="d-flex flex-wrap align-items-center py-2">
                                 <div class="old-price">
-                                        $50.45                                    
+                                    $50.45
                                 </div>
                                 <div class="new-price">
-                                        $35.053455555                  
+                                    $35.05
                                 </div>
 
                             </div>
@@ -656,6 +718,49 @@
         </div>
     </section>
     <!-- Product Section - End -->
+
+
+    <section class="mb-5">
+        <div class="container">
+            <div class="row g-2">
+                <div class="col-md-6 banner-card-small m-0">
+                    <div class="border-dark height-100 banner-card-1"
+                        data-background_img="./assets/img/banner/banner-1.jpg">
+                        <div class="banner-card-textarea">
+                            <h6 class="welcome-title">
+                                Weekend Discount
+                            </h6>
+                            <h3 class="title">
+                                Enhance Your
+                            </h3>
+                            <h5 class="sub-title">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias velit cumque.
+                            </h5>
+                            <button class="url-btn">Visit Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 banner-card-small m-0">
+                    <div class="border-dark height-100 banner-card-1"
+                        data-background_img="./assets/img/banner/banner-2.jpg">
+                        <div class="banner-card-textarea">
+                            <h6 class="welcome-title">
+                                Weekend Discount
+                            </h6>
+                            <h3 class="title">
+                                Enhance Your
+                            </h3>
+                            <h5 class="sub-title">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias velit cumque.
+                            </h5>
+                            <button class="url-btn">Visit Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
     <!-- General Info -->
@@ -720,7 +825,7 @@
     <footer class="theme-primary">
         <div class="container">
 
-            <div class="row py-4 px-2">
+            <div class="row pt-4 px-2">
                 <div class="col-md-6 col-xl-7">
                     <h5>Subscribe to our Newsletter</h5>
                     <p>Get all the latest information Sales and Offers</p>
@@ -742,9 +847,10 @@
                 <div class="col-xl-4 pe-5 pb-5">
                     <a href="#">
                         <img src="./assets/img/logo.png" alt="logo" class="img-fluid logo-footer"
-                        onerror="this.src='./assets/img/placeholder/placeholder_4-1.png'">
+                            onerror="this.src='./assets/img/placeholder/placeholder_4-1.png'">
                     </a>
-                    <p>ABC eCommerce is a leading online retailer offering a wide range of products and services to customers worldwide. With a user-friendly website and a robust online marketplace.</p>
+                    <p>ABC eCommerce is a leading online retailer offering a wide range of products and services to
+                        customers worldwide. With a user-friendly website and a robust online marketplace.</p>
                     <div class="d-flex gap-2 app-logos">
                         <a href="#">
                             <img src="./assets/img/icons/google-light.png" alt="" class="img-fluid">
