@@ -195,3 +195,58 @@ Product Single Card - Start
 /* ===========
 Product Single Card - End
 ============= */
+
+
+
+
+/* ===========
+Banner Card - Start
+============= */
+.banner-card{
+    overflow: hidden;
+    height: 500px;
+    /* padding: 2px; */
+}
+
+.banner-card-1{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-card-1 .banner-card-textarea{
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    right: 5%;
+}
+
+.banner-card-1 .welcome-title{
+    font-size: 20px;
+}
+
+.banner-card-1 .title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.banner-card-1 .sub-title{
+    font-size: 16px;
+}
+
+.banner-card-1 .url-btn{
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: #d6d6d6;
+    border: 0;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+/* ===========
+Banner Card - End
+============= */

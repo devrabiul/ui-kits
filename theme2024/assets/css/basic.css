@@ -71,5 +71,14 @@ body{
 .focus-no-shadow:focus {
     box-shadow: none;
 }
+.height-100{
+    height:100%;
+}
+.height-50{
+    height:50%;
+}
 
+.gap-4px{
+    gap: 4px;
+}
 /* Basic CSS - End */

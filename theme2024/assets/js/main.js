@@ -15,5 +15,15 @@ if (goToTopButton) {
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
     });
 }
-
 /* Go To Top Button - End */
+
+
+/*========================
+Background Image
+==========================*/
+var $bgImg = $("[data-background_img]");
+$bgImg.css("background-image", function () {
+        return 'url("' + $(this).data("background_img") + '")';
+    })
+    .removeAttr("data-background_img")
+    .addClass("bg-img");
